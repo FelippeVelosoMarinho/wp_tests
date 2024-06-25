@@ -1,0 +1,1123 @@
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-0 START @ 06:10:24
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: WINNT                                 |WINNT
+PHP VERSION_________: 8.2.4                                 |8.2.4
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 8.2.4 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache/2.4.56 (Win64) OpenSSL/1.1.1t PHP/8.2.4
+DOC ROOT____________: "C:/xampp/htdocs/AvantTeste"
+REQUEST URL_________: "http://localhost/AvantTeste"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[blogname]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+SECURE MODE_________: "none"
+URL PLUGINS_________: http://localhost/Avant/wp-content/plugins
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "C:/xampp/htdocs/AvantTeste"
+URL_NEW_____________: "http://localhost/AvantTeste"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "C:/xampp/htdocs/AvantTeste/20240209_avantdronesautonomos_[HASH]_20240209180541_archive.daf"
+ARCHIVE SIZE________: 74.85MB
+CREATED_____________: 2024-02-09 18:05:41
+WP VERSION__________: 6.4.3
+DUP VERSION_________: 1.5.8.1
+LICENSE_____________: Free version
+DB VERSION__________: 10.4.28
+DB FILE SIZE________: 11MB
+DB TABLES___________: 34
+DB ROWS_____________: 2219
+URL HOME____________: http://localhost/Avant
+URL CORE____________: http://localhost/Avant
+URL CONTENT_________: http://localhost/Avant/wp-content
+URL UPLOAD__________: http://localhost/Avant/wp-content/uploads
+URL PLUGINS_________: http://localhost/Avant/wp-content/plugins
+URL MU PLUGINS______: http://localhost/Avant/wp-content/mu-plugins
+URL THEMES__________: http://localhost/Avant/wp-content/themes
+PATH HOME___________: C:/xampp/htdocs/Avant
+PATH ABS____________: C:/xampp/htdocs/Avant
+PATH WPCONFIG_______: C:/xampp/htdocs/Avant
+PATH WPCONTENT______: C:/xampp/htdocs/Avant/wp-content
+PATH UPLOADS________: C:/xampp/htdocs/Avant/wp-content/uploads
+PATH PLUGINS________: C:/xampp/htdocs/Avant/wp-content/plugins
+PATH MUPLUGINS______: C:/xampp/htdocs/Avant/wp-content/mu-plugins
+PATH THEMES_________: C:/xampp/htdocs/Avant/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "localhost/Avant/"
+
+PLUGINS
+PLUGIN [SLUG:3d-viewer/3d-viewer.php                           ][ON:true ]  3D Viewer
+PLUGIN [SLUG:all-in-one-seo-pack/all_in_one_seo_pack.php       ][ON:true ]  All in One SEO
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+PLUGIN [SLUG:elementor/elementor.php                           ][ON:true ]  Elementor
+PLUGIN [SLUG:header-footer-elementor/header-footer-elementor.php][ON:true ]  Elementor Header & Footer Builder
+PLUGIN [SLUG:formfacade/formfacade.php                         ][ON:true ]  FormFacade
+PLUGIN [SLUG:litespeed-cache/litespeed-cache.php               ][ON:true ]  LiteSpeed Cache
+PLUGIN [SLUG:post-carousel/main.php                            ][ON:true ]  Smart Post Show
+PLUGIN [SLUG:instagram-feed/instagram-feed.php                 ][ON:true ]  Smash Balloon Instagram Feed
+PLUGIN [SLUG:updraftplus/updraftplus.php                       ][ON:true ]  UpdraftPlus - Backup/Restore
+PLUGIN [SLUG:wpforms-lite/wpforms.php                          ][ON:true ]  WPForms Lite
+
+********************************************************************************
+LOG-TIME[C:\xampp\htdocs\AvantTeste\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.30488]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\xampp\htdocs\AvantTeste\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\AvantTeste\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[C:\xampp\htdocs\AvantTeste\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.28733]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\xampp\htdocs\AvantTeste\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00015]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Package Size" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00016]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/AvantTeste"
+--------------------------------------
+LOG-TIME[DELTA:   0.06541]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00045]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00016]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.01169]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.03998]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00058]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.01936]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00102]  MESSAGE:TEST "Database Version" RESULT: passed
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.02005]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00376]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00022]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00318]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.03750]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.16449]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00059]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00638]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: skip
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00201]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: soft warning
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\AvantTeste\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\AvantTeste\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\AvantTeste\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/AvantTeste"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-1 START @ 06:12:38
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "Avant Drones Autônomos"
+HOME URL NEW________: "http://localhost/AvantTeste"
+SITE URL NEW________: "http://localhost/AvantTeste"
+CONTENT URL NEW_____: "http://localhost/AvantTeste/wp-content"
+UPLOAD URL NEW______: "http://localhost/AvantTeste/wp-content/uploads"
+PLUGINS URL NEW_____: "http://localhost/AvantTeste/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://localhost/AvantTeste/wp-content/mu-plugins"
+HOME PATH NEW_______: "C:/xampp/htdocs/AvantTeste"
+SITE PATH NEW_______: "C:/xampp/htdocs/AvantTeste"
+CONTENT PATH NEW____: "C:/xampp/htdocs/AvantTeste/wp-content"
+UPLOAD PATH NEW_____: "C:/xampp/htdocs/AvantTeste/wp-content/uploads"
+PLUGINS PATH NEW____: "C:/xampp/htdocs/AvantTeste/wp-content/plugins"
+MUPLUGINS PATH NEW__: "C:/xampp/htdocs/AvantTeste/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "duparchive"
+SET DIR PERMS_______: false
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: false
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "C:/xampp/htdocs/AvantTeste/dup-installer"
+	FILE: "C:/xampp/htdocs/AvantTeste/20240209_avantdronesautonomos_[HASH]_20240209180541_installer-backup.php"
+	FILE: "C:/xampp/htdocs/AvantTeste/20240209_avantdronesautonomos_[HASH]_20240209180541_archive.daf"
+	FILE: "C:/xampp/htdocs/AvantTeste/installer.php"
+	FILE: "C:/xampp/htdocs/AvantTeste/dup-installer-bootlog__7981ce3-09180541.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20240209_avantdronesautonomos_[HASH]_20240209180541_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: DUP ARCHIVE >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+SQL FILE NOT FOUND SO ADD TO EXTRACTION
+ARCHIVE OFFSET 0
+DAWN START EXPAND
+DUP EXPAND OFFSET 30
+CHUNK COMPLETE - RUNTIME: 5.3124 sec. - Files processed: 1,127 of 12,361
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\AvantTeste\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 8029700
+DAWN CONTINUE EXPAND
+#### seeking archive offset 8029700
+DUP EXPAND OFFSET 8029700
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/AvantTeste"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.7843 sec. - Files processed: 2,429 of 12,361
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\AvantTeste\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 16206795
+DAWN CONTINUE EXPAND
+#### seeking archive offset 16206795
+DUP EXPAND OFFSET 16206795
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/AvantTeste"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.8150 sec. - Files processed: 3,774 of 12,361
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\AvantTeste\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 28848570
+DAWN CONTINUE EXPAND
+#### seeking archive offset 28848570
+DUP EXPAND OFFSET 28848570
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/AvantTeste"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.9776 sec. - Files processed: 5,022 of 12,361
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\AvantTeste\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 34432658
+DAWN CONTINUE EXPAND
+#### seeking archive offset 34432658
+DUP EXPAND OFFSET 34432658
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/AvantTeste"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.6749 sec. - Files processed: 6,144 of 12,361
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\AvantTeste\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 43301231
+DAWN CONTINUE EXPAND
+#### seeking archive offset 43301231
+DUP EXPAND OFFSET 43301231
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/AvantTeste"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.7900 sec. - Files processed: 7,384 of 12,361
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\AvantTeste\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 51564578
+DAWN CONTINUE EXPAND
+#### seeking archive offset 51564578
+DUP EXPAND OFFSET 51564578
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/AvantTeste"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.7998 sec. - Files processed: 8,376 of 12,361
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\AvantTeste\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 54662801
+DAWN CONTINUE EXPAND
+#### seeking archive offset 54662801
+DUP EXPAND OFFSET 54662801
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/AvantTeste"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 4.8151 sec. - Files processed: 9,985 of 12,361
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\AvantTeste\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 72405654
+DAWN CONTINUE EXPAND
+#### seeking archive offset 72405654
+DUP EXPAND OFFSET 72405654
+--------------------------------------
+PATHS MAPPING : "C:/xampp/htdocs/AvantTeste"
+--------------------------------------
+DUP EXPAND DONE
+
+
+EXTRACTION: DUP ARCHIVE >>> DONE
+
+EXTRACTION COMPLETE @ 06:13:21 - RUNTIME: 42.7144 sec. - Files processed: 12,361 of 12,361
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\AvantTeste\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 avtwp_
+
+
+
+********************************************************************************
+* DUPLICATOR LITE: INSTALL-LOG
+* STEP-2 START @ 06:13:21
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "avtwp_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "avtwp_actionscheduler_actions"___________________[ROWS:      33] [EXTRACT|REPLACE] [INST NAME: avtwp_actionscheduler_actions]
+TABLE "avtwp_actionscheduler_claims"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: avtwp_actionscheduler_claims]
+TABLE "avtwp_actionscheduler_groups"____________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: avtwp_actionscheduler_groups]
+TABLE "avtwp_actionscheduler_logs"______________________[ROWS:      85] [EXTRACT|REPLACE] [INST NAME: avtwp_actionscheduler_logs]
+TABLE "avtwp_aioseo_cache"______________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: avtwp_aioseo_cache]
+TABLE "avtwp_aioseo_notifications"______________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: avtwp_aioseo_notifications]
+TABLE "avtwp_aioseo_posts"______________________________[ROWS:      10] [EXTRACT|REPLACE] [INST NAME: avtwp_aioseo_posts]
+TABLE "avtwp_commentmeta"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: avtwp_commentmeta]
+TABLE "avtwp_comments"__________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: avtwp_comments]
+TABLE "avtwp_ctf_feeds_posts"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: avtwp_ctf_feeds_posts]
+TABLE "avtwp_ctf_posts"_________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: avtwp_ctf_posts]
+TABLE "avtwp_duplicator_packages"_______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: avtwp_duplicator_packages]
+TABLE "avtwp_e_events"__________________________________[ROWS:      12] [EXTRACT|REPLACE] [INST NAME: avtwp_e_events]
+TABLE "avtwp_links"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: avtwp_links]
+TABLE "avtwp_litespeed_url"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: avtwp_litespeed_url]
+TABLE "avtwp_litespeed_url_file"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: avtwp_litespeed_url_file]
+TABLE "avtwp_options"___________________________________[ROWS:     511] [EXTRACT|REPLACE] [INST NAME: avtwp_options]
+TABLE "avtwp_postmeta"__________________________________[ROWS:    1392] [EXTRACT|REPLACE] [INST NAME: avtwp_postmeta]
+TABLE "avtwp_posts"_____________________________________[ROWS:     241] [EXTRACT|REPLACE] [INST NAME: avtwp_posts]
+TABLE "avtwp_sbi_feeds"_________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: avtwp_sbi_feeds]
+TABLE "avtwp_sbi_feed_caches"___________________________[ROWS:      10] [EXTRACT|REPLACE] [INST NAME: avtwp_sbi_feed_caches]
+TABLE "avtwp_sbi_instagram_feeds_posts"_________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: avtwp_sbi_instagram_feeds_posts]
+TABLE "avtwp_sbi_instagram_feed_locator"________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: avtwp_sbi_instagram_feed_locator]
+TABLE "avtwp_sbi_instagram_posts"_______________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: avtwp_sbi_instagram_posts]
+TABLE "avtwp_sbi_sources"_______________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: avtwp_sbi_sources]
+TABLE "avtwp_termmeta"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: avtwp_termmeta]
+TABLE "avtwp_terms"_____________________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: avtwp_terms]
+TABLE "avtwp_term_relationships"________________________[ROWS:       6] [EXTRACT|REPLACE] [INST NAME: avtwp_term_relationships]
+TABLE "avtwp_term_taxonomy"_____________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: avtwp_term_taxonomy]
+TABLE "avtwp_usermeta"__________________________________[ROWS:      27] [EXTRACT|REPLACE] [INST NAME: avtwp_usermeta]
+TABLE "avtwp_users"_____________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: avtwp_users]
+TABLE "avtwp_wpforms_payments"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: avtwp_wpforms_payments]
+TABLE "avtwp_wpforms_payment_meta"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: avtwp_wpforms_payment_meta]
+TABLE "avtwp_wpforms_tasks_meta"________________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: avtwp_wpforms_tasks_meta]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.4.28 -- Build Server: 10.4.28
+FILE SIZE:	dup-database__[HASH].sql (5.18MB)
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE-GLOBAL:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+DROP TABLE avtwp_actionscheduler_actions
+DROP TABLE avtwp_actionscheduler_claims
+DROP TABLE avtwp_actionscheduler_groups
+DROP TABLE avtwp_actionscheduler_logs
+DROP TABLE avtwp_aioseo_cache
+DROP TABLE avtwp_aioseo_notifications
+DROP TABLE avtwp_aioseo_posts
+DROP TABLE avtwp_commentmeta
+DROP TABLE avtwp_comments
+DROP TABLE avtwp_ctf_feeds_posts
+DROP TABLE avtwp_ctf_posts
+DROP TABLE avtwp_duplicator_packages
+DROP TABLE avtwp_e_events
+DROP TABLE avtwp_links
+DROP TABLE avtwp_litespeed_url
+DROP TABLE avtwp_litespeed_url_file
+DROP TABLE avtwp_options
+DROP TABLE avtwp_postmeta
+DROP TABLE avtwp_posts
+DROP TABLE avtwp_sbi_feed_caches
+DROP TABLE avtwp_sbi_feeds
+DROP TABLE avtwp_sbi_instagram_feed_locator
+DROP TABLE avtwp_sbi_instagram_feeds_posts
+DROP TABLE avtwp_sbi_instagram_posts
+DROP TABLE avtwp_sbi_sources
+DROP TABLE avtwp_term_relationships
+DROP TABLE avtwp_term_taxonomy
+DROP TABLE avtwp_termmeta
+DROP TABLE avtwp_terms
+DROP TABLE avtwp_usermeta
+DROP TABLE avtwp_users
+DROP TABLE avtwp_wpforms_payment_meta
+DROP TABLE avtwp_wpforms_payments
+DROP TABLE avtwp_wpforms_tasks_meta
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`root`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	34
+RENAMED TABLES:	0
+QUERIES RAN:	310
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "avtwp_actionscheduler_actions"___________________[ROWS:    33]
+TABLE "avtwp_actionscheduler_claims"____________________[ROWS:     0]
+TABLE "avtwp_actionscheduler_groups"____________________[ROWS:     3]
+TABLE "avtwp_actionscheduler_logs"______________________[ROWS:    85]
+TABLE "avtwp_aioseo_cache"______________________________[ROWS:     2]
+TABLE "avtwp_aioseo_notifications"______________________[ROWS:     4]
+TABLE "avtwp_aioseo_posts"______________________________[ROWS:    10]
+TABLE "avtwp_commentmeta"_______________________________[ROWS:     0]
+TABLE "avtwp_comments"__________________________________[ROWS:     1]
+TABLE "avtwp_ctf_feeds_posts"___________________________[ROWS:     0]
+TABLE "avtwp_ctf_posts"_________________________________[ROWS:     0]
+TABLE "avtwp_duplicator_packages"_______________________[ROWS:     1]
+TABLE "avtwp_e_events"__________________________________[ROWS:    12]
+TABLE "avtwp_links"_____________________________________[ROWS:     0]
+TABLE "avtwp_litespeed_url"_____________________________[ROWS:     0]
+TABLE "avtwp_litespeed_url_file"________________________[ROWS:     0]
+TABLE "avtwp_options"___________________________________[ROWS:   511]
+TABLE "avtwp_postmeta"__________________________________[ROWS:  1392]
+TABLE "avtwp_posts"_____________________________________[ROWS:   241]
+TABLE "avtwp_sbi_feed_caches"___________________________[ROWS:    10]
+TABLE "avtwp_sbi_feeds"_________________________________[ROWS:     1]
+TABLE "avtwp_sbi_instagram_feed_locator"________________[ROWS:     0]
+TABLE "avtwp_sbi_instagram_feeds_posts"_________________[ROWS:     3]
+TABLE "avtwp_sbi_instagram_posts"_______________________[ROWS:     3]
+TABLE "avtwp_sbi_sources"_______________________________[ROWS:     1]
+TABLE "avtwp_term_relationships"________________________[ROWS:     6]
+TABLE "avtwp_term_taxonomy"_____________________________[ROWS:     2]
+TABLE "avtwp_termmeta"__________________________________[ROWS:     0]
+TABLE "avtwp_terms"_____________________________________[ROWS:     2]
+TABLE "avtwp_usermeta"__________________________________[ROWS:    27]
+TABLE "avtwp_users"_____________________________________[ROWS:     1]
+TABLE "avtwp_wpforms_payment_meta"______________________[ROWS:     0]
+TABLE "avtwp_wpforms_payments"__________________________[ROWS:     0]
+TABLE "avtwp_wpforms_tasks_meta"________________________[ROWS:     4]
+
+INSERT DATA RUNTIME: 3.1192 sec.
+STEP-2 COMPLETE @ 06:13:24 - RUNTIME: 3.1195 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\AvantTeste\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: C:/xampp/htdocs/Avant REPLACE: C:/xampp/htdocs/AvantTeste [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: http://localhost/Avant REPLACE: http://localhost/AvantTeste [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR LITE: INSTALL-LOG
+STEP-3 START @ 06:13:24
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 1], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = ], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = 1], [inWpConfig = 1]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 512M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+[PHP ERR][E_WARNING] MSG:foreach() argument must be of type array|object, string given [CODE:2|FILE:C:\xampp\htdocs\AvantTeste\dup-installer\src\Core\Deploy\Database\DbCleanup.php|LINE:95]
+CLEAN OPTIONS [avtwp_options]
+	`option_name` = "duplicator_plugin_data_stats"
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+DATABASE OPTIONS DELETED [ROWS:    46]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     1]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "avtwp_actionscheduler_actions"___________________[ROWS:    33][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Avant" ===========================> "C:/xampp/htdocs/AvantTeste"
+	SEARCH[urlnd]  2:"http://localhost/Avant" ==========================> "http://localhost/AvantTeste"
+	CHUNK ACTION: CURRENT [search_replace][avtwp_actionscheduler_actions][0]
+
+EVALUATE TABLE: "avtwp_actionscheduler_claims"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "avtwp_actionscheduler_groups"____________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Avant" ===========================> "C:/xampp/htdocs/AvantTeste"
+	SEARCH[urlnd]  2:"http://localhost/Avant" ==========================> "http://localhost/AvantTeste"
+	CHUNK ACTION: CURRENT [search_replace][avtwp_actionscheduler_groups][0]
+
+EVALUATE TABLE: "avtwp_actionscheduler_logs"______________________[ROWS:    85][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Avant" ===========================> "C:/xampp/htdocs/AvantTeste"
+	SEARCH[urlnd]  2:"http://localhost/Avant" ==========================> "http://localhost/AvantTeste"
+	CHUNK ACTION: CURRENT [search_replace][avtwp_actionscheduler_logs][0]
+
+EVALUATE TABLE: "avtwp_aioseo_cache"______________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Avant" ===========================> "C:/xampp/htdocs/AvantTeste"
+	SEARCH[urlnd]  2:"http://localhost/Avant" ==========================> "http://localhost/AvantTeste"
+	CHUNK ACTION: CURRENT [search_replace][avtwp_aioseo_cache][0]
+
+EVALUATE TABLE: "avtwp_aioseo_notifications"______________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Avant" ===========================> "C:/xampp/htdocs/AvantTeste"
+	SEARCH[urlnd]  2:"http://localhost/Avant" ==========================> "http://localhost/AvantTeste"
+	CHUNK ACTION: CURRENT [search_replace][avtwp_aioseo_notifications][0]
+
+EVALUATE TABLE: "avtwp_aioseo_posts"______________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Avant" ===========================> "C:/xampp/htdocs/AvantTeste"
+	SEARCH[urlnd]  2:"http://localhost/Avant" ==========================> "http://localhost/AvantTeste"
+	CHUNK ACTION: CURRENT [search_replace][avtwp_aioseo_posts][0]
+
+EVALUATE TABLE: "avtwp_commentmeta"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "avtwp_comments"__________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Avant" ===========================> "C:/xampp/htdocs/AvantTeste"
+	SEARCH[urlnd]  2:"http://localhost/Avant" ==========================> "http://localhost/AvantTeste"
+	CHUNK ACTION: CURRENT [search_replace][avtwp_comments][0]
+
+EVALUATE TABLE: "avtwp_ctf_feeds_posts"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "avtwp_ctf_posts"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "avtwp_duplicator_packages"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "avtwp_e_events"__________________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Avant" ===========================> "C:/xampp/htdocs/AvantTeste"
+	SEARCH[urlnd]  2:"http://localhost/Avant" ==========================> "http://localhost/AvantTeste"
+	CHUNK ACTION: CURRENT [search_replace][avtwp_e_events][0]
+
+EVALUATE TABLE: "avtwp_links"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "avtwp_litespeed_url"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "avtwp_litespeed_url_file"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "avtwp_options"___________________________________[ROWS:   465][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Avant" ===========================> "C:/xampp/htdocs/AvantTeste"
+	SEARCH[urlnd]  2:"http://localhost/Avant" ==========================> "http://localhost/AvantTeste"
+	CHUNK ACTION: CURRENT [search_replace][avtwp_options][0]
+
+EVALUATE TABLE: "avtwp_postmeta"__________________________________[ROWS:  1392][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Avant" ===========================> "C:/xampp/htdocs/AvantTeste"
+	SEARCH[urlnd]  2:"http://localhost/Avant" ==========================> "http://localhost/AvantTeste"
+	CHUNK ACTION: CURRENT [search_replace][avtwp_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][avtwp_postmeta][1]
+
+EVALUATE TABLE: "avtwp_posts"_____________________________________[ROWS:   241][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Avant" ===========================> "C:/xampp/htdocs/AvantTeste"
+	SEARCH[urlnd]  2:"http://localhost/Avant" ==========================> "http://localhost/AvantTeste"
+	CHUNK ACTION: CURRENT [search_replace][avtwp_posts][0]
+
+EVALUATE TABLE: "avtwp_sbi_feeds"_________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Avant" ===========================> "C:/xampp/htdocs/AvantTeste"
+	SEARCH[urlnd]  2:"http://localhost/Avant" ==========================> "http://localhost/AvantTeste"
+	CHUNK ACTION: CURRENT [search_replace][avtwp_sbi_feeds][0]
+
+EVALUATE TABLE: "avtwp_sbi_feed_caches"___________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Avant" ===========================> "C:/xampp/htdocs/AvantTeste"
+	SEARCH[urlnd]  2:"http://localhost/Avant" ==========================> "http://localhost/AvantTeste"
+	CHUNK ACTION: CURRENT [search_replace][avtwp_sbi_feed_caches][0]
+
+EVALUATE TABLE: "avtwp_sbi_instagram_feeds_posts"_________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Avant" ===========================> "C:/xampp/htdocs/AvantTeste"
+	SEARCH[urlnd]  2:"http://localhost/Avant" ==========================> "http://localhost/AvantTeste"
+	CHUNK ACTION: CURRENT [search_replace][avtwp_sbi_instagram_feeds_posts][0]
+
+EVALUATE TABLE: "avtwp_sbi_instagram_feed_locator"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "avtwp_sbi_instagram_posts"_______________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Avant" ===========================> "C:/xampp/htdocs/AvantTeste"
+	SEARCH[urlnd]  2:"http://localhost/Avant" ==========================> "http://localhost/AvantTeste"
+	CHUNK ACTION: CURRENT [search_replace][avtwp_sbi_instagram_posts][0]
+
+EVALUATE TABLE: "avtwp_sbi_sources"_______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Avant" ===========================> "C:/xampp/htdocs/AvantTeste"
+	SEARCH[urlnd]  2:"http://localhost/Avant" ==========================> "http://localhost/AvantTeste"
+	CHUNK ACTION: CURRENT [search_replace][avtwp_sbi_sources][0]
+
+EVALUATE TABLE: "avtwp_termmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "avtwp_terms"_____________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Avant" ===========================> "C:/xampp/htdocs/AvantTeste"
+	SEARCH[urlnd]  2:"http://localhost/Avant" ==========================> "http://localhost/AvantTeste"
+	CHUNK ACTION: CURRENT [search_replace][avtwp_terms][0]
+
+EVALUATE TABLE: "avtwp_term_relationships"________________________[ROWS:     6][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "avtwp_term_taxonomy"_____________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Avant" ===========================> "C:/xampp/htdocs/AvantTeste"
+	SEARCH[urlnd]  2:"http://localhost/Avant" ==========================> "http://localhost/AvantTeste"
+	CHUNK ACTION: CURRENT [search_replace][avtwp_term_taxonomy][0]
+
+EVALUATE TABLE: "avtwp_usermeta"__________________________________[ROWS:    27][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Avant" ===========================> "C:/xampp/htdocs/AvantTeste"
+	SEARCH[urlnd]  2:"http://localhost/Avant" ==========================> "http://localhost/AvantTeste"
+	CHUNK ACTION: CURRENT [search_replace][avtwp_usermeta][0]
+
+EVALUATE TABLE: "avtwp_users"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Avant" ===========================> "C:/xampp/htdocs/AvantTeste"
+	SEARCH[urlnd]  2:"http://localhost/Avant" ==========================> "http://localhost/AvantTeste"
+	CHUNK ACTION: CURRENT [search_replace][avtwp_users][0]
+
+EVALUATE TABLE: "avtwp_wpforms_payments"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "avtwp_wpforms_payment_meta"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "avtwp_wpforms_tasks_meta"________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"C:/xampp/htdocs/Avant" ===========================> "C:/xampp/htdocs/AvantTeste"
+	SEARCH[urlnd]  2:"http://localhost/Avant" ==========================> "http://localhost/AvantTeste"
+	CHUNK ACTION: CURRENT [search_replace][avtwp_wpforms_tasks_meta][0]
+--------------------------------------
+SCANNED:	Tables:34 	|	 Rows:2302 	|	 Cells:14863 
+UPDATED:	Tables:6 	|	 Rows:448 	|	 Cells:641 
+ERRORS:		0 
+RUNTIME:	3.109200 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:C:/xampp/htdocs/AvantTeste/wp-config.php
+New htaccess file created:C:/xampp/htdocs/AvantTeste/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE DB_NAME ""avant""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_CACHE "true"
+	WP CONFIG UPDATE WP_DEBUG "false"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+\n SKIP FOLDER PERMISSION AFTER EXTRACTION
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 06:13:28 - RUNTIME: 3.7576 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\AvantTeste\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\AvantTeste\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[C:\xampp\htdocs\AvantTeste\dup-installer\src\Core\Bootstrap.php:71] RESET TIME
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[NOTICE] Warnings or notices on WordPress front-end tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: C:/xampp/htdocs/AvantTeste/index.php
+E_DEPRECATED Creation of dynamic property Kava_Theme_Setup::$layout is deprecated
+	FILE: C:\xampp\htdocs\AvantTeste\wp-content\themes\kava\config\layout.php[11]
+	--- TRACE ---
+	FUNCTION: call_user_func_array          FILE: C:\xampp\htdocs\AvantTeste\wp-content\plugins\wpforms-lite\src\ErrorHandler.php[169]
+	CLASS___: WPForms\ErrorHandler->error_handlerFILE: C:\xampp\htdocs\AvantTeste\wp-content\themes\kava\config\layout.php[11]
+	FUNCTION: kava_set_layout               FILE: C:\xampp\htdocs\AvantTeste\wp-includes\class-wp-hook.php[324]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\AvantTeste\wp-includes\class-wp-hook.php[348]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\AvantTeste\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\AvantTeste\wp-settings.php[621]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\AvantTeste\wp-config.php[100]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\AvantTeste\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\AvantTeste\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\AvantTeste\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\AvantTeste\wp-content\wp_test_script_7981ce3-09180541.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property CSF_Metabox::$post_formats is deprecated
+	FILE: C:\xampp\htdocs\AvantTeste\wp-content\plugins\3d-viewer\admin\csf\classes\metabox-options.class.php[46]
+	--- TRACE ---
+	FUNCTION: call_user_func_array          FILE: C:\xampp\htdocs\AvantTeste\wp-content\plugins\wpforms-lite\src\ErrorHandler.php[169]
+	CLASS___: WPForms\ErrorHandler->error_handlerFILE: C:\xampp\htdocs\AvantTeste\wp-content\plugins\3d-viewer\admin\csf\classes\metabox-options.class.php[46]
+	CLASS___: CSF_Metabox->__construct      FILE: C:\xampp\htdocs\AvantTeste\wp-content\plugins\3d-viewer\admin\csf\classes\metabox-options.class.php[67]
+	CLASS___: CSF_Metabox::instance         FILE: C:\xampp\htdocs\AvantTeste\wp-content\plugins\3d-viewer\admin\csf\classes\setup.class.php[138]
+	CLASS___: CSF_Setup::setup              FILE: C:\xampp\htdocs\AvantTeste\wp-includes\class-wp-hook.php[324]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\AvantTeste\wp-includes\class-wp-hook.php[348]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\AvantTeste\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\AvantTeste\wp-settings.php[621]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\AvantTeste\wp-config.php[100]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\AvantTeste\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\AvantTeste\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\AvantTeste\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\AvantTeste\wp-content\wp_test_script_7981ce3-09180541.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property CSF_Metabox::$page_templates is deprecated
+	FILE: C:\xampp\htdocs\AvantTeste\wp-content\plugins\3d-viewer\admin\csf\classes\metabox-options.class.php[47]
+	--- TRACE ---
+	FUNCTION: call_user_func_array          FILE: C:\xampp\htdocs\AvantTeste\wp-content\plugins\wpforms-lite\src\ErrorHandler.php[169]
+	CLASS___: WPForms\ErrorHandler->error_handlerFILE: C:\xampp\htdocs\AvantTeste\wp-content\plugins\3d-viewer\admin\csf\classes\metabox-options.class.php[47]
+	CLASS___: CSF_Metabox->__construct      FILE: C:\xampp\htdocs\AvantTeste\wp-content\plugins\3d-viewer\admin\csf\classes\metabox-options.class.php[67]
+	CLASS___: CSF_Metabox::instance         FILE: C:\xampp\htdocs\AvantTeste\wp-content\plugins\3d-viewer\admin\csf\classes\setup.class.php[138]
+	CLASS___: CSF_Setup::setup              FILE: C:\xampp\htdocs\AvantTeste\wp-includes\class-wp-hook.php[324]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\AvantTeste\wp-includes\class-wp-hook.php[348]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\AvantTeste\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\AvantTeste\wp-settings.php[621]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\AvantTeste\wp-config.php[100]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\AvantTeste\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\AvantTeste\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\AvantTeste\index.php[17]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\AvantTeste\wp-content\wp_test_script_7981ce3-09180541.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property CSF_Metabox::$page_templates is deprecated
+	FILE: C:\xampp\htdocs\AvantTeste\wp-content\plugins\3d-viewer\admin\csf\classes\metabox-options.class.php[47]
+	--- TRACE ---
+	CLASS___: Duplicator\Installer\Utils\Tests\WP\TestsErrorHandler::shutdownFILE: [-1]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+
+
+-----------------------
+[NOTICE] Warnings or notices on WordPress backend tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: C:/xampp/htdocs/AvantTeste/wp-login.php
+E_DEPRECATED Creation of dynamic property Kava_Theme_Setup::$layout is deprecated
+	FILE: C:\xampp\htdocs\AvantTeste\wp-content\themes\kava\config\layout.php[11]
+	--- TRACE ---
+	FUNCTION: call_user_func_array          FILE: C:\xampp\htdocs\AvantTeste\wp-content\plugins\wpforms-lite\src\ErrorHandler.php[169]
+	CLASS___: WPForms\ErrorHandler->error_handlerFILE: C:\xampp\htdocs\AvantTeste\wp-content\themes\kava\config\layout.php[11]
+	FUNCTION: kava_set_layout               FILE: C:\xampp\htdocs\AvantTeste\wp-includes\class-wp-hook.php[324]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\AvantTeste\wp-includes\class-wp-hook.php[348]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\AvantTeste\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\AvantTeste\wp-settings.php[621]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\AvantTeste\wp-config.php[100]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\AvantTeste\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\AvantTeste\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\AvantTeste\wp-content\wp_test_script_7981ce3-09180541.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property CSF_Metabox::$post_formats is deprecated
+	FILE: C:\xampp\htdocs\AvantTeste\wp-content\plugins\3d-viewer\admin\csf\classes\metabox-options.class.php[46]
+	--- TRACE ---
+	FUNCTION: call_user_func_array          FILE: C:\xampp\htdocs\AvantTeste\wp-content\plugins\wpforms-lite\src\ErrorHandler.php[169]
+	CLASS___: WPForms\ErrorHandler->error_handlerFILE: C:\xampp\htdocs\AvantTeste\wp-content\plugins\3d-viewer\admin\csf\classes\metabox-options.class.php[46]
+	CLASS___: CSF_Metabox->__construct      FILE: C:\xampp\htdocs\AvantTeste\wp-content\plugins\3d-viewer\admin\csf\classes\metabox-options.class.php[67]
+	CLASS___: CSF_Metabox::instance         FILE: C:\xampp\htdocs\AvantTeste\wp-content\plugins\3d-viewer\admin\csf\classes\setup.class.php[138]
+	CLASS___: CSF_Setup::setup              FILE: C:\xampp\htdocs\AvantTeste\wp-includes\class-wp-hook.php[324]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\AvantTeste\wp-includes\class-wp-hook.php[348]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\AvantTeste\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\AvantTeste\wp-settings.php[621]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\AvantTeste\wp-config.php[100]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\AvantTeste\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\AvantTeste\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\AvantTeste\wp-content\wp_test_script_7981ce3-09180541.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property CSF_Metabox::$page_templates is deprecated
+	FILE: C:\xampp\htdocs\AvantTeste\wp-content\plugins\3d-viewer\admin\csf\classes\metabox-options.class.php[47]
+	--- TRACE ---
+	FUNCTION: call_user_func_array          FILE: C:\xampp\htdocs\AvantTeste\wp-content\plugins\wpforms-lite\src\ErrorHandler.php[169]
+	CLASS___: WPForms\ErrorHandler->error_handlerFILE: C:\xampp\htdocs\AvantTeste\wp-content\plugins\3d-viewer\admin\csf\classes\metabox-options.class.php[47]
+	CLASS___: CSF_Metabox->__construct      FILE: C:\xampp\htdocs\AvantTeste\wp-content\plugins\3d-viewer\admin\csf\classes\metabox-options.class.php[67]
+	CLASS___: CSF_Metabox::instance         FILE: C:\xampp\htdocs\AvantTeste\wp-content\plugins\3d-viewer\admin\csf\classes\setup.class.php[138]
+	CLASS___: CSF_Setup::setup              FILE: C:\xampp\htdocs\AvantTeste\wp-includes\class-wp-hook.php[324]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\xampp\htdocs\AvantTeste\wp-includes\class-wp-hook.php[348]
+	CLASS___: WP_Hook->do_action            FILE: C:\xampp\htdocs\AvantTeste\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\xampp\htdocs\AvantTeste\wp-settings.php[621]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\AvantTeste\wp-config.php[100]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\AvantTeste\wp-load.php[50]
+	FUNCTION: require                       FILE: C:\xampp\htdocs\AvantTeste\wp-login.php[12]
+	FUNCTION: require_once                  FILE: C:\xampp\htdocs\AvantTeste\wp-content\wp_test_script_7981ce3-09180541.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property CSF_Metabox::$page_templates is deprecated
+	FILE: C:\xampp\htdocs\AvantTeste\wp-content\plugins\3d-viewer\admin\csf\classes\metabox-options.class.php[47]
+	--- TRACE ---
+	CLASS___: Duplicator\Installer\Utils\Tests\WP\TestsErrorHandler::shutdownFILE: [-1]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+
+
+====================================
+LOG-TIME[C:\xampp\htdocs\AvantTeste\dup-installer\ctrls\ctrl.base.php:227][DELTA:   0.05946]  MESSAGE:END RENDER PAGE
